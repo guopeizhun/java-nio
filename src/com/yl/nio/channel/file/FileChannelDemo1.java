@@ -1,4 +1,4 @@
-package com.yl.nio.channel;
+package com.yl.nio.channel.file;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.nio.channels.FileChannel;
 /**
  * @Author:letg(pz)
  * @Date: 2022/10/2110:08
- * @Description:
+ * @Description: 通过javaNio 实现读取文件内容到通道中，并写入buffer
  */
 
 

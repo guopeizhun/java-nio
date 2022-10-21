@@ -1,4 +1,4 @@
-package com.yl.nio.channel;
+package com.yl.nio.channel.file;
 
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * @Author:letg(pz)
  * @Date: 2022/10/2110:23
- * @Description:
+ * @Description: 通过向buffer中写数据，然后使用channel读取buffer中的数据写入文件
  */
 
 
